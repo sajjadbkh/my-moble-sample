@@ -1,0 +1,565 @@
+/* ? 2560px and upper */
+@media screen and (min-width:2560px) {
+
+    /* header  */
+    .header {
+        height: 100vh;
+        background-position: center;
+    }
+
+    /* navigation */
+    .navigation {
+        height: 90px;
+    }
+
+    .nav-right ul li a {
+        font-size: 2.25rem;
+    }
+
+    .nav-left ul li .icon {
+        font-size: 3rem;
+        color: #d3ab55;
+        text-decoration: none;
+        margin: 0 1.5rem;
+    }
+
+    /* header title */
+    .text .text-2020 {
+        font-size: 5rem;
+    }
+
+    .text .title {
+        font-size: 7rem;
+    }
+
+    .text .sub-title {
+        font-size: 7rem;
+    }
+
+    /* itemshop */
+    /* * top */
+    .flex .top {
+        height: 250px;
+    }
+
+    .right-box .right-content .text-content h2 {
+        font-size: 3rem;
+    }
+
+    .right-box .right-content .text-content p {
+        font-size: 2rem;
+    }
+
+    .right-box .right-content .button button {
+        padding: 0.3rem 2rem;
+        font-size: 2rem;
+    }
+
+    .top .left-box a {
+        font-size: 3rem;
+    }
+
+    /* *middel-1 */
+    .flex .middle-1 {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: #eee;
+    }
+
+    .middle-1 .left-box .item .price .item-name {
+        font-size: 2.25rem;
+    }
+
+    .middle-1 .left-box .item .price .item-price {
+        font-size: 2rem;
+    }
+
+    /* *middel-2 */
+    .flex .middle-2 {
+        height: 250px;
+    }
+
+    .middle-2 .right-box div a {
+        font-size: 3rem;
+    }
+
+    .middle-2 .left-box .text-content .text h1 {
+        font-size: 3rem;
+    }
+
+    .middle-2 .left-box .text-content .text p {
+        font-size: 2rem;
+    }
+
+    .middle-2 .left-box .text-content .button button {
+        padding: 0.3rem 2rem;
+        font-size: 2rem;
+    }
+
+    /* *  bottom */
+    .flex .bottom {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: #eee;
+    }
+
+    .bottom .right-box .item .text .name {
+        font-size: 2.25rem;
+    }
+
+    .bottom .right-box .item .text .price {
+        font-size: 2rem;
+    }
+
+    /* social */
+    .social {
+        height: 280px;
+    }
+
+    .wrapper .social-media .icon-media {
+        font-size: 4rem;
+    }
+
+    .wrapper .social-media p.name {
+        font-size: 2rem;
+    }
+
+    .wrapper .social-media p.number {
+        font-size: 2.25rem;
+    }
+
+    /* footer */
+    .top-text h2 {
+        font-size: 3.5rem;
+    }
+
+    .top-text .icons .icon {
+        font-size: 4rem;
+    }
+
+    .bottom-text p {
+        font-size: 2rem;
+    }
+}
+
+/*? 1440px up to 2560px  */
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    /* no change */
+}
+
+/*? 992px up to 1440px  */
+@media screen and (min-width:992px) and (max-width:1440px) {
+
+    /* header title  */
+    /*  */
+    .top .left-box a {
+        font-size: 1.25rem;
+    }
+
+    .middle-2 .right-box div a {
+        font-size: 1.25rem;
+    }
+}
+
+/*? 768px up to 992px  */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .header {
+        background-position: center;
+    }
+    /* nav bar  */
+    .nav-right ul li:not(.menu) {
+        display: none;
+    }
+
+    .nav-right ul li.menu {
+        display: block;
+    }
+
+    /* header title */
+    .text .text-2020 {
+        font-size: 2rem;
+    }
+
+    .text .title {
+        font-size: 2.5rem;
+    }
+
+    .text .sub-title {
+        font-size: 2.5rem;
+    }
+
+    /* item shop  */
+    /** top */
+    .right-box .right-content .text-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .right-box .right-content .text-content p {
+        font-size: .9rem;
+    }
+
+    .right-box .right-content .button button {
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+    }
+
+    .top .left-box a {
+        font-size: 1rem;
+    }
+
+    /** middel-1  */
+    .middle-1 .left-box .item .price .item-name {
+        font-size: 1rem;
+    }
+
+    .middle-1 .left-box .item .price .item-price {
+        font-size: .8rem;
+    }
+
+    /* *middel-2 */
+    .middle-2 .right-box div a {
+        font-size: 1rem;
+    }
+
+    .middle-2 .left-box .text-content .text h1 {
+        font-size: 1.2rem;
+    }
+
+    .middle-2 .left-box .text-content .text p {
+        font-size: .9rem;
+    }
+
+    .middle-2 .left-box .text-content .button button {
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+    }
+
+    /** bottom */
+    .bottom .right-box .item .text .name {
+        font-size: 1rem;
+    }
+
+    .bottom .right-box .item .text .price {
+        font-size: .8rem;
+    }
+
+    /** footer */
+    .top-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .top-text .icons .icon {
+        font-size: 1.5rem;
+    }
+
+    .bottom-text p {
+        font-size: .8rem;
+    }
+
+}
+
+/*? 550px up to 768px  */
+@media screen and (min-width:550px) and (max-width:768px){
+
+    .header {
+        background-position: 95% 150px;
+    }
+
+    /* navbar */
+    .nav-right li:not(.menu) {
+        display: none;
+    }
+
+    .nav-left ul li .icon {
+        font-size: 1.25rem;
+    }
+
+    /* menu */
+    .nav-right ul li.menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    /* header title */
+    .text .text-2020 {
+        font-size: 2rem;
+    }
+
+    .text .title {
+        font-size: 2rem;
+    }
+
+    .text .sub-title {
+        font-size: 2rem;
+    }
+    /* item shop  */
+    /* * top  */
+    .right-box .right-content .text-content h2 {
+        font-size: 1rem;
+    }
+
+    .right-box .right-content .text-content p {
+        font-size: .8rem;
+    }
+    .top .left-box a {
+        font-size: 0.8rem;
+    }
+    /* middel-1 */
+    .flex .middle-1 {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #eee;
+    }
+
+    .middle-1 .right-box {
+        width: 100%;
+        height: 300px;
+        order: 1;
+    }
+
+    .middle-1 .left-box {
+        width: 100%;
+        height: 400px;
+    }
+    /* middel-2 */
+    .flex .middle-2 .right-box a {
+        font-size: 1.2rem;
+    }
+    /* bottom */
+    .flex .bottom{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #eee;
+    }
+
+    .bottom .right-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    .bottom .left-box {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/*? 425px and lower */
+@media screen and (max-width:550px) {
+
+    .header {
+        background-position: 95% 150px;
+    }
+
+    /* navbar */
+    .nav-right li:not(.menu) {
+        display: none;
+    }
+
+    .nav-left ul li .icon {
+        font-size: 1.25rem;
+    }
+
+    /* menu */
+    .nav-right ul li.menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .side-menu {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* header title */
+
+    .header .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .header .container .text {
+        width: 100%;
+        height: 50%;
+        position: static;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text .text-2020 {
+        width: 100%;
+        position: static;
+        font-size: 1.5rem;
+        border: 1px solid red;
+        transform: none;
+        display: none;
+    }
+
+    .header-text .text .title {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        position: static;
+        transform: none;
+
+    }
+
+    .text .sub-title {
+        position: static;
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        transform: none;
+
+    }
+
+    /* seciton  item shop  */
+    /* * top  */
+    .flex .top {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .top .right-box {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: column-reverse wrap;
+    }
+
+    .top .right-box .right-content {
+        width: 100%;
+        height: 50%;
+    }
+
+    .top .right-box .left-content {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* ! left a tags */
+    .top .left-box {
+        order: -1;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .top .left-box a {
+        font-size: 1.25rem;
+    }
+
+    /* middel-1 */
+    .flex .middle-1 {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #eee;
+    }
+
+    .middle-1 .right-box {
+        width: 100%;
+        height: 300px;
+    }
+
+    .middle-1 .left-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* middel-2 */
+    .flex .middle-2 {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .flex .middle-2 .right-box a {
+        font-size: 1.25rem;
+    }
+    .flex .middle-2 .right-box {
+        width: 100%;
+        height: 100px;
+    }
+    .flex .middle-2 .left-box {
+        width: 100%;
+        height: 150px;
+    }
+    .flex .middle-2 .left-box .text h1 {
+        font-size: 1.25rem;
+    }
+    .flex .middle-2 .left-box .text p {
+        font-size: 1rem;
+    }
+    .middle-2 .left-box .text-content .button button {
+        padding: 0.3rem 1.2rem;
+        color: white;
+        font-size: 1rem;
+    }
+    /* bottom */
+    .flex .bottom{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #eee;
+    }
+
+    .bottom .right-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    .bottom .left-box {
+        width: 100%;
+        height: 300px;
+    }
+    /* social */
+    .wrapper .social-media .icon-media {
+        color: var(--color-primary);
+        font-size: 1.5rem;
+    }
+    .wrapper .social-media p.name{
+        font-weight: bolder;
+        font-size: 0.9rem;
+    }
+    .wrapper .social-media p.number{
+        font-size: 0.9rem;
+    }
+    /* footer */
+    .footer .top-text {
+        width: 100%;
+    }
+    .top-text h2 {
+        width: 100%;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .footer .bottom-text {
+        width: 100%;
+        height: 50%;
+        border-top: 1px solid var(--color-primary);
+        padding-top: 1.5rem;
+    }
+    .bottom-text p{
+        width: 100%;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+}

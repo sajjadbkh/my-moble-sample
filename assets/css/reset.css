@@ -1,0 +1,14 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Vazir";
+}

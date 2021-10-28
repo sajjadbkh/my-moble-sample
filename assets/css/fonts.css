@@ -1,0 +1,10 @@
+/* ? vazir */
+@font-face {
+    font-family:"Vazir";
+    src: url(../fonts/Vazir/Vazir-Light.eot) format("embeded-opentype"),
+     url(../fonts/Vazir/Vazir-Light.woff2) format("woff2"),
+     url(../fonts/Vazir/Vazir-Light.woff) format("woff"),
+     url(../fonts/Vazir/Vazir-Light.ttf) format("truetype");
+     font-weight: 400;
+}
+/* * Others . . . */
